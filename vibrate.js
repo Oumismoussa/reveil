@@ -33,7 +33,7 @@ function vibrate(ms){
     navigator.vibrate(ms);
  }
  
-if( heurelocale === '14:26' ){
+if( heurelocale === '15:28' ){
     paragraphe.innerText = ' Debout'
     navigator.vibrate([300,100,300,100])} else {
         paragraphe.innerText = 'Tu peux dormir'
