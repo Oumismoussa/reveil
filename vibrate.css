@@ -1,0 +1,19 @@
+
+.reveil{
+    position: relative;
+    left: 400px;
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+    border-radius: 20px;
+    border:  white thick double;
+    color: rgb(255, 255, 255);
+}
+
+.paragraphemodif{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10rem;
+    position: relative;
+    left: 300px;
+
+}
