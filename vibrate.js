@@ -18,6 +18,7 @@ let paragraphe = document.querySelector('.paragraphe')
 // );
 
 
+
 let date1 = new Date();
 let reveil = document.querySelector('.paragraphe')
 
@@ -28,7 +29,13 @@ let heurelocale = date1.toLocaleString('fr-FR',{
 document.querySelector('.paragraphe').innerHTML = heurelocale;
 reveil.classList.add('paragraphemodif')
 
-if( heurelocale == '14:05' ){
+function vibrate(ms){
+    navigator.vibrate(ms);
+ }
+ 
+if( heurelocale === '14:26' ){
+    paragraphe.innerText = ' Debout'
     navigator.vibrate([300,100,300,100])} else {
         paragraphe.innerText = 'Tu peux dormir'
     }
+    
